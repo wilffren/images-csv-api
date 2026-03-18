@@ -3,7 +3,9 @@
     "allow": [
       "Bash(pip install:*)",
       "Bash(python -m pytest tests/ -v)",
-      "Bash(timeout 8 uvicorn main:app --port 8765)"
+      "Bash(timeout 8 uvicorn main:app --port 8765)",
+      "Bash(winget --version)",
+      "Bash(winget install:*)"
     ]
   }
 }
