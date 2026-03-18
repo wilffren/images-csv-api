@@ -5,7 +5,9 @@
       "Bash(python -m pytest tests/ -v)",
       "Bash(timeout 8 uvicorn main:app --port 8765)",
       "Bash(winget --version)",
-      "Bash(winget install:*)"
+      "Bash(winget install:*)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" auth status)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" repo create images-csv-api --public --description \"REST API generada desde images.csv — Juliao Boticarios\" --source . --remote origin --push)"
     ]
   }
 }
